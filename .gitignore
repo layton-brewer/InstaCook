@@ -1,0 +1,22 @@
+# Node / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode / Swift
+build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+
+# Env / secrets
+.env
+.env.*
+
