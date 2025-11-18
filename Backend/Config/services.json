@@ -1,0 +1,10 @@
+{
+  "ai": {
+    "provider": "custom",
+    "apiKeyEnv": "AI_API_KEY"
+  },
+  "neon": {
+    "project": "instacook",
+    "connectionEnv": "DATABASE_URL"
+  }
+}

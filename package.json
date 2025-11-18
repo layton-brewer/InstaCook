@@ -1,6 +1,20 @@
 {
+  "name": "instacook-backend",
+  "version": "0.1.0",
+  "description": "InstaCook Node.js/Express backend server",
+  "main": "Backend/server.js",
+  "scripts": {
+    "start": "node Backend/server.js",
+    "dev": "nodemon Backend/server.js"
+  },
   "dependencies": {
-    "electron": "^38.1.0",
-    "electron-updater": "^6.6.2"
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }

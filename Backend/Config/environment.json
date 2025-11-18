@@ -1,0 +1,14 @@
+{
+  "environment": "development",
+  "port": 4000,
+  "database": {
+    "urlEnv": "DATABASE_URL"
+  },
+  "clerk": {
+    "publishableKeyEnv": "CLERK_PUBLISHABLE_KEY",
+    "secretKeyEnv": "CLERK_SECRET_KEY"
+  },
+  "cloudflare": {
+    "cdnBaseUrlEnv": "CLOUDFLARE_CDN_BASE_URL"
+  }
+}
